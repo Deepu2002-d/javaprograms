@@ -1,0 +1,18 @@
+class Min
+{
+public static void main(String[] args)
+{
+	int[] arr={12,34,22,12,33,11,31,23,33};
+	int min=arr[0];
+	for(int i=1;i<=arr.length-1;i++)
+	{
+	 if(arr[i]<min)
+	 {
+	 min=arr[i];
+	 }
+	}
+	System.out.println(min);
+
+
+}
+}

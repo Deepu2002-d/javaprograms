@@ -1,0 +1,20 @@
+a:hover{
+    color: aqua;
+}
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: saddlebrown;
+}
+a:active{
+    color: chartreuse;
+}
+h1{
+    margin: 500px;
+    padding: 100px;
+    border: 10px solid orange;
+    background-color: aqua;
+    transform: rotate(150deg);
+
+}

@@ -1,0 +1,22 @@
+class Cir
+{
+ double cir()
+{
+	double pi=3.142;
+	int r=20;
+	double res=pi*r*r;
+
+	return res;
+
+}
+}
+class Circle
+{
+
+	public static void main(String[] args)
+	{
+	  Cir s1=new Cir(); 
+	   double x=s1.cir();
+	   System.out.println(x);
+	}
+}

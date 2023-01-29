@@ -1,0 +1,40 @@
+#a{
+    height: 600px;
+    width: 400px;
+    border: 10px solid chartreuse;
+    margin-top: 900px;
+    margin-bottom: 1000px;
+
+}
+.b{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    position: fixed;
+    top: 200px;
+}
+.c{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.d{
+    height: 150px;
+    width: 150px;
+    background-color:black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
+}
+.e{
+    height: 150px;
+    width: 150px;
+    background-color: saddlebrown;
+    z-index: 2;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+}

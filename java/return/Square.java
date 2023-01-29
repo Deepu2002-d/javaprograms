@@ -1,0 +1,18 @@
+class Rectangle
+{
+static int rec()
+{
+	int w=67;
+	int h=20;
+	int res=w*h;
+
+	return res;
+
+}
+	public static void main(String[] args)
+	{
+	   
+	   int x=rec();
+	   System.out.println(x);
+	}
+}

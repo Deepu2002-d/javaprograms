@@ -1,0 +1,21 @@
+class Squ
+{
+ int rec()
+{
+	int a=2;
+	int res=a*a;
+
+	return res;
+
+}
+}
+class Square
+{
+
+	public static void main(String[] args)
+	{
+	   Squ s1=new Squ();
+	   int x=rec();
+	   System.out.println(x);
+	}
+}

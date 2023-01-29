@@ -1,0 +1,18 @@
+#a{
+    height: 200px;
+    width: 300px;
+    background-color:orange;
+    overflow: scroll;
+}
+#b{
+    height: 200px;
+    width: 300px;
+    background-color:aqua;
+    overflow: hidden;
+}
+#c{
+    height: 200px;
+    width: 300px;
+    background-color:green;
+    overflow: visible;
+}

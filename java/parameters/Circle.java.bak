@@ -1,0 +1,17 @@
+class Circle
+{
+static void cir(double pi,int r)
+{
+	
+	double res=pi*r*r;
+	System.out.println(res);
+	return;
+
+}
+	public static void main(String[] args)
+	{
+	   System.out.println("main starts");
+	   cir(3.142,5,5);
+	   System.out.println("main ends");
+	}
+}

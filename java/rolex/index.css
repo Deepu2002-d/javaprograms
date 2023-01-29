@@ -1,0 +1,36 @@
+#a{
+    display: flex;
+}
+.b{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    z-index: 1;
+    top: 50px;
+    position: relative;
+
+}
+.c{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 2;
+    top: 50px;
+    position: relative;
+
+}
+.d{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+}
+.e{
+    height: 100px;
+    width: 100px;
+    background-color:saddlebrown;
+}
+.f{
+    height: 100px;
+    width: 100px;
+    background-color: firebrick;
+}

@@ -1,0 +1,20 @@
+class Ellipse
+{
+static double eli()
+{
+	double pi=3.142;
+	int a=20;
+	int b=35;
+	double res=pi*a*b;
+	
+	return res;
+
+}
+	public static void main(String[] args)
+	{
+	   Ellipse s1=new Ellipse();
+	   double x=eli();
+	   System.out.println(x);
+	   
+	}
+}

@@ -1,0 +1,11 @@
+class Boo
+  
+{
+	public static void main(String[] args) 
+	{
+		for(boolean i=1;i<=10;i++)
+		{
+		System.out.println(true);
+		}
+	}
+}

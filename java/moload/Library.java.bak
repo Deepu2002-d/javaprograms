@@ -1,0 +1,27 @@
+class Lib
+{
+ static void bb(int date)
+ {
+  System.out.println("borrow book date"+date);
+ }
+ static void bb(int fine, String book)
+ {
+  System.out.println("sending  no and text"+fine +book);
+ }
+ static void bb(String name)
+ {
+  System.out.println("book name"+name);
+ }
+}
+class Library
+{
+public static void main(String[] args)
+{
+   
+  lib.bb(56);
+  lib.bb(344,"java book");
+  lib.bb("hello");
+
+}
+
+}

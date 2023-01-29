@@ -1,0 +1,89 @@
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.y{
+    margin-left: 400px;
+}
+.x{
+    margin-left: 100px;
+}
+.w{
+    margin-left: 100px;
+}
+.v{
+    margin-left: 100px;
+}
+#b{
+    background-image: url("https://www.talkwalker.com/images/2020/zomato-lp.jpg");
+}
+h1{
+    margin-top: 200px;
+    font-size: 50px;
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+#d{
+    display: flex;
+  
+
+}
+.c{
+    padding: 10px;
+    padding-left: 300px;
+    margin-left: 50px;
+    border-radius: 50px;
+    
+}
+.e{
+    margin-left: 70px;
+    border-radius: 50%;
+
+}
+.i{
+    margin-left: 50px;
+    margin: 50px;
+    border: 4px solid red;
+    border-radius: 70px;
+    transition: 1s;
+
+}
+img:hover{
+    transform: scale(1.2);
+}
+.g{
+    margin-left: 30px;
+    border-radius: 50%;
+}
+H2{
+    color: black;
+    margin-left: 125px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-style: italic;
+}
+#h{
+    display: flex;
+}
+.j{
+    margin-left: 50px;
+}
+P1{
+    margin-left: 100PX;
+    font-style: italic;
+    font-size: larger;
+}

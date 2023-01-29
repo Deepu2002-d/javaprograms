@@ -1,0 +1,64 @@
+button{
+    background-color: red;
+    color: white;
+    float: right;
+}
+
+h1{
+    color: white;
+
+}
+h2{
+    color: white;
+}
+h4{
+    color: white;
+}
+#home{
+    background-image: url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=z%2bAuuobpN0KNSg&riu=http%3a%2f%2fisquad.tv%2fwp-content%2fuploads%2f2018%2f08%2fNetflix-Background.jpg&ehk=Ij4PSd%2bZkTcESSlAVWoGpNmExM0fu3BgteNT6AnS9lM%3d&risl=&pid=ImgRaw&r=0);
+}
+#a{
+    background-color: black;
+    display: flex;
+}
+.b{
+    margin-left: 100px;
+    margin-top: 150px;
+    
+}
+.e{
+    margin-left: 200px;
+}
+#h{
+    display: flex;
+    background-color: black;
+}
+.g{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 200px;
+}
+#h{
+    display: flex;
+}
+.i{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.j{
+    margin-bottom: 100px;
+}
+#k{
+    display: flex;
+    background-color: black;
+}
+.l{
+
+}
+.m{
+    color: white;
+    font-size: xx-large;
+    margin-top: 200px;
+}

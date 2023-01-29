@@ -1,0 +1,42 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    background-image: linear-gradient(to right, white,yellow,red);
+}
+.a{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    background-image: repeating-radial-gradient(pink,blue,red);
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.b{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    background-image: repeating-conic-gradient(aqua 10%,black 20%);
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.c{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    background-image: repeating-linear-gradient(to right , white,yellow 20%,red 30%);
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.b:hover{
+    animation:abc 1s infinite;
+}
+@keyframes abc{
+    100%{transform:rotate(360deg);}
+}
+.a:hover{
+    animation:abc 1s infinite;
+}
+@keyframes abc{
+    100%{transform:rotate(360deg);}
+}

@@ -1,0 +1,17 @@
+class Teli
+{
+	static int tv_cost=50000;
+	static String brand="samsung";
+	static String type="led";
+		public static void main(String[] args)
+		{
+
+			System.out.println("Tv cost is" +tv_cost);
+			System.out.println("Tv brand is" +brand);
+			System.out.println("Tv type is" +type);
+
+
+
+
+		}
+}

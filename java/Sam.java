@@ -1,0 +1,20 @@
+class Sam
+{
+static String a="deepu";
+ static int b=10;
+static void add()
+{
+int a=10;
+int b=20;
+int c=a+b;
+System.out.println(c);
+}
+public static void main(String[] args)
+{
+	int c=10;
+	System.out.println(c);
+System.out.println(a);
+add();
+System.out.println(b);
+}
+}

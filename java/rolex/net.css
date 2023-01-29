@@ -1,0 +1,81 @@
+button{
+    background-color: red;
+    color: white;
+    float: right;
+}
+h1{
+    color: white;
+
+}
+h2{
+    color: white;
+}
+h4{
+    color: white;
+}
+#home{
+    background-image: url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=z%2bAuuobpN0KNSg&riu=http%3a%2f%2fisquad.tv%2fwp-content%2fuploads%2f2018%2f08%2fNetflix-Background.jpg&ehk=Ij4PSd%2bZkTcESSlAVWoGpNmExM0fu3BgteNT6AnS9lM%3d&risl=&pid=ImgRaw&r=0);
+}
+#a{
+    background-color: black;
+    display: flex;
+}
+.c,.d{
+    color:white;
+}
+.b{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.e{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+    
+}
+#f{
+    background-color: black;
+}
+#f{
+    display: flex;
+}
+
+.h{
+    margin-left: 300px;
+    margin-bottom: 500px;
+}
+
+.j{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+  
+}
+.c{
+    margin-left: 100px;
+    margin-bottom: 500px;
+}
+#k{
+    background-color: black;
+}
+#k{
+    display: flex;
+}
+m{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.o{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+  
+}
+#z{
+    background-color: black;
+}

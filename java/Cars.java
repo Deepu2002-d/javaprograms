@@ -1,0 +1,12 @@
+class Cars
+{
+ static int cost=100000;
+ static String model="Toyata";
+ static String type="petrol";
+	public static void main(String[] args)
+	{
+		System.out.println("cost of car is"+cost);
+		System.out.println("model of car is"+model);
+		System.out.println("type of cars is"+type);
+	}
+}

@@ -1,0 +1,41 @@
+#z{
+    display: flex;
+}
+.a{
+    height: 300px;
+    width: 250px;
+    position: relative;
+   
+}
+.b{
+    height: 250px;
+    width: 150px;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.333);
+ 
+}
+.b:hover{
+ visibility: hidden;
+}
+#y{
+    display: flex;
+}
+.c{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    z-index: 3;
+   
+}
+.d{
+    height: 250px;
+    width: 150px;
+    position: relative;
+    background-color: rgba(79, 64, 43, 0.333);
+    z-index: 2;
+ 
+}
+.c:hover{
+    z-index: 1;
+
+}

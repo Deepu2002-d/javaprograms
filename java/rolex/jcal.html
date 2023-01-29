@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script>
+    function addNumbers()
+    {
+        var a=parseInt(document.getElementById("value1").value);
+        var b=parseInt(document.getElementById("value2").value);
+        var c=a+b;
+        alert("sum="+c);
+    }
+    function subNumbers()
+    {
+        var a=(document.getElementById("value1").value);
+        var b=(document.getElementById("value2").value);
+        var c=a-b;
+        alert("sub="+c);
+    }
+    function productNumbers()
+    {
+        var a=(document.getElementById("value1").value);
+        var b=(document.getElementById("value2").value);
+        var c=a*b;
+        alert("product="+c);
+    }
+    function divisionNumbers()
+    {
+        var a=(document.getElementById("value1").value);
+        var b=(document.getElementById("value2").value);
+        var c=a/b;
+        alert("division="+c);
+    }
+  </script>      
+</head>
+<body>
+    <div style="margin:300;">
+        <h4>Arithimetic Operation</h4>
+        <p>
+            enter 1st number=
+            <input type="text" id="value1"/>
+        </p>
+        <p>
+            enter 2nd number=
+            <input type="text" id="value2"/>
+        </p>
+<input type="button" value="+" onclick="addNumbers()"/>
+<input type="button" value="-" onclick="subNumbers()"/>
+<input type="button" value="*" onclick="productNumbers()"/>
+<input type="button" value="/" onclick="divisionNumbers()"/>
+
+    </div>
+</body>
+</html>

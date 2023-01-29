@@ -1,0 +1,24 @@
+class Tester3
+{
+	void disp()
+	{
+		System.out.println(" hello");
+	}
+}
+class Cool3 extends Tester3
+{
+ int b=254;
+}
+class Typ1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("**upcasting");
+			Tester3 t3=new Cool3();
+		t3.disp();
+        System.out.println("**down casting");
+			Cool3 c3=(Cool3)t3;
+		System.out.println(c3.b);
+		c3.disp();
+	}
+}

@@ -1,0 +1,14 @@
+class Home
+{
+ static String h_name="Narayana";
+ static int h_cost=4500000;
+ static String h_color="green";
+	 
+
+	 public static void main(String[] args)
+	{
+		System.out.println("house name is"+h_namet);
+		System.out.println("House cost is"+h_cost);
+		System.out.println("House color is"+h_color);
+	}
+}

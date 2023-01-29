@@ -1,0 +1,8 @@
+class Cool
+{
+void add()
+{
+  System.out.println("hello");
+}
+}
+class Goolata exten

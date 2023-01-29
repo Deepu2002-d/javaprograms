@@ -1,0 +1,21 @@
+class Samsung
+{
+int mob_cost;
+String mob_col;
+static String mod_name="Samsung";
+
+
+public static void main(String[] args)
+{
+      System.out.println("Model name is"+mod_name);
+      Samsung s1=new Samsung();
+      s1.mob_cost=23467;
+      System.out.println(s1.mob_cost);
+	   Samsung s2=new Samsung();
+      s2.mob_col="red";
+      System.out.println(s1.mob_col);
+
+
+
+}
+}

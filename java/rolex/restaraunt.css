@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color:silver;
+    font-size: larger;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    
+}
+a:hover{
+    background-color: antiquewhite;
+}
+#Home{
+    background-image: url("non.jpg");
+}
+#Home{
+    background-image: url("non1jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#g{
+    background-image: url("non1jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

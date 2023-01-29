@@ -1,0 +1,25 @@
+h3{
+    margin: 200px;  
+    padding: 100px;
+    border: 5px solid orangered;
+    outline: 20px solid royalblue;
+    border-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-end-start-radius: 30px;
+    border-right-color: yellow;
+    border-top-right-radius:200px ;
+    border-style: dashed;
+    border-left-style: double;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-top-style: dotted;
+
+}
+h4{
+    margin-left: 100px;
+    padding-left: 200px;
+    border-top: 10px solid darkturquoise;
+    border-right: 20px solid red;
+    border-bottom: 10px solid brown;
+    border-left : ;: 20px solid darkgreen;
+}

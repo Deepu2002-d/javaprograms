@@ -1,0 +1,183 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color:black;
+    font-size: x-large;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    
+}
+#Home{
+    background-image: url("renu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a{
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+}
+
+#About{
+    display: flex;
+    background-color: black;
+   
+}
+.b{
+    font-size: x-large;
+    font-style: italic;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.c{
+    margin-left: 300px;
+    margin-top:  200px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+.d{
+    font-size: xx-large;
+    color: bisque;
+    font-style: italic;
+}
+#Menu{
+    background-color: black;
+    display: flex;
+}
+.e{
+    padding-bottom: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+ 
+}
+.f{
+    color: aliceblue;
+}
+#Special{
+    background-color:black;
+    display: flex;
+    display: flex;
+}
+.h{
+    color: white;
+}
+.g{
+    margin-top: 200px;
+    
+}
+.h{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.i{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#BookTable{
+
+    background-color: black;
+    display: flex;
+    color: bisque;
+    font-size: x-large;
+
+
+}
+.j{
+   margin-top: 50px;
+   
+}
+.k{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+
+}
+.l{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#Gallery{
+    background-color: black;
+}
+.m{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+ }
+ .n{
+     margin-left: 100px;
+     margin-top: 50px;
+     
+ 
+ }
+ .o{
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ #pic{
+    background-image: url(thank.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #hi{
+    background-image: url(non1jpg.jpg);
+ }
+ background-color:black;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ color:white;
+
+}
+
+.p,.q,.r{
+ margin-bottom: 550px;
+ margin-left: 150px;
+}
+.p:hover{
+ background: red;
+ 
+
+}
+.q:hover{
+ background: red;
+}
+.r:hover{
+ background:red;
+}
+#events{
+ background-color: black;
+   color:red ;
+}
+#chef{
+    background-color:black;
+    display: flex;
+    color: blue;
+}
+.p{
+    margin-left: 50px ;
+    background-color: bisque;
+}
+.q{
+    
+    
+    background-color: bisque;
+    margin-left: 50px ;
+    
+}
+.r{
+    margin-left: 50px ;
+    background-color: bisque;
+}
+
+#z{
+    display: flex;
+    background-color: black;
+}
+

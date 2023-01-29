@@ -1,0 +1,40 @@
+h1{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 10px -10px 3px firebrick;
+    font-size: 100px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+}
+h1:hover{
+    background-color: black;
+    color: orange;
+}
+.a{
+    height: 400px;
+    width: 400px;
+
+}
+.b{
+    height: 400px;
+    width: 400px;
+    
+}
+.a:hover{
+    border: 1px;
+    border-radius: 50%;
+    filter:grayscale(1)
+
+}
+.b:hover{
+   border: 2px;
+  border-radius: 30%;
+  border-right-color: aqua;
+    filter:grayscale(1)
+}
+.i{
+    color: blueviolet;
+}

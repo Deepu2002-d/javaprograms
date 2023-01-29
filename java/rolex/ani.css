@@ -1,0 +1,28 @@
+#a{
+   
+    
+  
+    background-image: url(na.jpg);
+    animation: abc 4s infinite;
+
+}
+@keyframes abc{
+    25%{
+        background-color: aqua;
+        background-image: url(non.jpg);
+    }
+    50%{
+        background-color: aquamarine;
+        background-image:url(dog.jpg);      
+
+    }
+    75%{
+        background-color: pink;
+        background-image: url(net1.jpg);
+    }
+    100%{
+        background-color: brown;
+        background-image: url(nat.jpg);
+    }
+
+}

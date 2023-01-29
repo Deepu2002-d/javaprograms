@@ -1,0 +1,21 @@
+class Car
+{
+  int car_cost;
+  String car_name;
+  String car_type;
+  Car(int x,String y,String z)
+	{
+	  car_cost=x;
+	  car_name=y;
+	  car_type=z;
+	  return;
+	}
+
+	public static void main(String[] args)
+	{
+		Car c1=new Car(20000,"kai","petrol");
+		System.out.println(c1.car_cost);
+		System.out.println(c1.car_name);
+		System.out.println(c1.car_type);
+	}
+}

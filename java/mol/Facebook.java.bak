@@ -1,0 +1,26 @@
+class Zoom_v1
+{
+  void jion()
+  {
+   System.out.println("jion with concact number");
+  }
+
+}
+class Zoom_v2 extends Zoom_v1
+{
+  void jion()
+  {
+   System.out.println(" jion with link");
+   super.jion();
+  }
+
+}
+class Zoom
+
+{
+  public static void main(String[] args)
+  {
+   Zoom_v2 s=new Zoom_v2();
+   s.jion();
+  }
+}

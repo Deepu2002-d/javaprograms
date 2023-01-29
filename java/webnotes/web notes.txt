@@ -1,0 +1,199 @@
+1html defines strature and layout of the document
+HEADING TAGS MAIN 3 PROPERTIES
+		1.it will always  "bold"
+		*as no increse font decrese
+		2.it gives "line gap" b/w the h1 and h2
+		3.every heading tag has its own "font size"
+section:doctype,body,html
+
+PARAGRAPH TAGS:<p> this is paragraph</p>
+ITALIC FORMAT:<i></i>
+BOLD:<B></B>
+UNDERLINE:<U> </U>,<q>double quotes</q>
+UNPAIRED TAGS:
+
+		<BR>:break
+		<hr>:horizontal line in b/w the content
+		<img>:image tag
+ALIGNMENT:defualt is left,<center> center of our browser</center>
+	  *To align right side we use <align>
+	  *<align="right">(property)
+<PRE>:pre formatted tag	
+
+   MEDIA TAGS: <img src="address  ">[source=src]
+
+head section: meta,title,link,style,script
+MARQUEE:
+		syntax:<marquee direction="up" scroll amount="7 ">
+TABLES:
+	*collection of cells(box)
+	*default table no borders
+sturture of table:<table> data of table</table>
+		*<tr>table row</tr>
+<th>table heading</th>:1.it will bw bold,
+                       2.alignment at center
+*<td>table data</td>
+*row span:adding of rows 
+*cols span:adding of column
+linking document:1.external
+		 2.internal
+
+hyper=more than one
+(hyper reference=adress of next page)
+parent:close and open hold information
+<td><a href=" "><img src=" "></a></td>
+lists:1. collection of item
+ordered list<ol type="">
+								<li></li>
+						  </ol>
+						[1,A,a,roman,i(lower roman)]	
+		2.unordered list(square,disc,)
+		3.definstion list (or) nested list
+<dl>
+	<dt>movies</dt>(data term)
+	<dd>kgf</dd>(data defination)
+	<dd>rrr</dd>
+</dl>
+output:movies
+				kgf
+				rrr
+
+FORMS:	
+			syntax of forms:<form action=" ">
+										
+								</form>
+e=exponential number
+
+[ ass:login pages:ammazon
+				facebook
+				insta]
+src:holding adress of media
+href:hold the entire document adress
+meta=current adress
+
+
+CSS=cascading(over flow) style sheet:
+
+*to style and design the struture
+*to interactive and attractive the web page
+*extension:.css
+*its is case insensitive language
+types of css:
+					*inline css:give style the tags in same line
+					eg:
+						<h1 style="background color:red">				
+					*internal css:entire stuature and style present in same document we write in head section 		
+								<style>
+								h2
+								{background color:yellow;
+								}	
+								</style>
+							
+					*external css:in head section we write
+									
+									we creat a file externally with the extension of .css and then we link the .css file in the adress of the space of href attribute
+
+
+										<link href=" def.css" rel="stylesheet">
+
+In css image importing		
+body
+{
+background-image:url(   );
+float attr:content on right
+Syntax:folat left
+font color:color:white
+			
+Selectors:picking  or choose any tags in html document
+		types of selectors
+			*element selector :selecting individual element like h1,h2etc
+			*group selector: multiple elements at same time having same properties 
+			*universal:*{overlaping the same tags
+								}
+			*class:represented by (.)
+									.a{
+											}
+			*id   :represented by (#)
+								#id=name
+BOX MODEL:
+margin
+padding
+border(solid is keyword to make visible the border)
+border radius change the shape of the box models
+
+
+distance b/w screen to the border
+distance b/w content to the border
+separate the border d
+opacity default value is 1
+if opacity is increase img bright ness will increase
+if opacithy is decrease img shows blur
+Hover:
+		when cursor move over the content it will show a different attribute
+
+shadow: h-shadow,v-shadow,blur
+Animation:
+				different styling and designing
+Syntax:
+	animation:abc time(10sec) infinate
+	keyword   name  duration  behaviour
+
+@keyframes abc{
+				logic
+			}
+sudocodes: 
+         overflow:
+             hidden,
+				clip,
+				hidden,
+				visible
+display: to represent content side by side
+			*flex:side by side
+			*inline:same line property
+			*block:block by block
+			*inline-block:the first line entire screen in one block and other content in another block
+
+
+
+position:
+ 			*fixed:fixed the conent or img and other nxt pages we can move 
+			*static:
+			*relative:top,left,right,bottom
+			*sticky:it is combination of relative and fixed
+			*absolute:there is default 20px gap
+css:
+   types of css
+selectors
+box model
+hover
+navbar
+internal linking
+animations
+transform
+transistion
+bootstrap 4
+pesudo elements
+overflow
+gradient
+z-index
+background
+text
+font
+display
+position
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

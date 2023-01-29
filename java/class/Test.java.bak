@@ -1,0 +1,16 @@
+class Test
+{
+public static void main(String[] args)
+{
+ int no1=65;
+ int no2=97;
+ int no3=1;
+ for(int i=1;i<=26;i++)
+ {
+   int n1=65;
+   char ch=(char)(n1+no1);
+   System.out.println(ch);
+ }
+
+}
+}
